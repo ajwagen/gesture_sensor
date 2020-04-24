@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5217E0752453313300DB9C7E /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217E0742453313300DB9C7E /* GestureView.swift */; };
+		5217E0772453321100DB9C7E /* TempiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217E0762453321100DB9C7E /* TempiUtils.swift */; };
 		52BDF1632450F3750086FBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1622450F3750086FBFE /* AppDelegate.swift */; };
-		52BDF1652450F3750086FBFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1642450F3750086FBFE /* SceneDelegate.swift */; };
 		52BDF1672450F3750086FBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1662450F3750086FBFE /* ViewController.swift */; };
 		52BDF16A2450F3750086FBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF1682450F3750086FBFE /* Main.storyboard */; };
 		52BDF16C2450F37C0086FBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF16B2450F37C0086FBFE /* Assets.xcassets */; };
 		52BDF16F2450F37C0086FBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF16D2450F37C0086FBFE /* LaunchScreen.storyboard */; };
 		52BDF17A2450F37C0086FBFE /* gesture_sensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1792450F37C0086FBFE /* gesture_sensorTests.swift */; };
 		52BDF1852450F37C0086FBFE /* gesture_sensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1842450F37C0086FBFE /* gesture_sensorUITests.swift */; };
+		52BDF1942450F3860086FBFE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BDF1932450F3860086FBFE /* AVFoundation.framework */; };
+		52BDF1962450F3C50086FBFE /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1952450F3C50086FBFE /* TempiFFT.swift */; };
+		52BDF1982450F3DE0086FBFE /* TempiAudioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF1972450F3DE0086FBFE /* TempiAudioInput.swift */; };
+		52BDF19A2450F4410086FBFE /* tone_18khz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF1992450F4410086FBFE /* tone_18khz.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5217E0742453313300DB9C7E /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		5217E0762453321100DB9C7E /* TempiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiUtils.swift; sourceTree = "<group>"; };
 		52BDF15F2450F3750086FBFE /* gesture_sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gesture_sensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BDF1622450F3750086FBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52BDF1642450F3750086FBFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52BDF1662450F3750086FBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52BDF1692450F3750086FBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52BDF16B2450F37C0086FBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		52BDF1802450F37C0086FBFE /* gesture_sensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gesture_sensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BDF1842450F37C0086FBFE /* gesture_sensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gesture_sensorUITests.swift; sourceTree = "<group>"; };
 		52BDF1862450F37C0086FBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BDF1932450F3860086FBFE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52BDF1952450F3C50086FBFE /* TempiFFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
+		52BDF1972450F3DE0086FBFE /* TempiAudioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiAudioInput.swift; sourceTree = "<group>"; };
+		52BDF1992450F4410086FBFE /* tone_18khz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone_18khz.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BDF1942450F3860086FBFE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,7 @@
 				52BDF1782450F37C0086FBFE /* gesture_sensorTests */,
 				52BDF1832450F37C0086FBFE /* gesture_sensorUITests */,
 				52BDF1602450F3750086FBFE /* Products */,
+				52BDF1922450F3860086FBFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				52BDF1622450F3750086FBFE /* AppDelegate.swift */,
-				52BDF1642450F3750086FBFE /* SceneDelegate.swift */,
 				52BDF1662450F3750086FBFE /* ViewController.swift */,
+				5217E0762453321100DB9C7E /* TempiUtils.swift */,
+				5217E0742453313300DB9C7E /* GestureView.swift */,
+				52BDF1952450F3C50086FBFE /* TempiFFT.swift */,
+				52BDF1972450F3DE0086FBFE /* TempiAudioInput.swift */,
 				52BDF1682450F3750086FBFE /* Main.storyboard */,
 				52BDF16B2450F37C0086FBFE /* Assets.xcassets */,
 				52BDF16D2450F37C0086FBFE /* LaunchScreen.storyboard */,
 				52BDF1702450F37C0086FBFE /* Info.plist */,
+				52BDF1992450F4410086FBFE /* tone_18khz.wav */,
 			);
 			path = gesture_sensor;
 			sourceTree = "<group>";
@@ -126,6 +142,14 @@
 				52BDF1862450F37C0086FBFE /* Info.plist */,
 			);
 			path = gesture_sensorUITests;
+			sourceTree = "<group>";
+		};
+		52BDF1922450F3860086FBFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BDF1932450F3860086FBFE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BDF16F2450F37C0086FBFE /* LaunchScreen.storyboard in Resources */,
+				52BDF19A2450F4410086FBFE /* tone_18khz.wav in Resources */,
 				52BDF16C2450F37C0086FBFE /* Assets.xcassets in Resources */,
 				52BDF16A2450F3750086FBFE /* Main.storyboard in Resources */,
 			);
@@ -259,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BDF1962450F3C50086FBFE /* TempiFFT.swift in Sources */,
+				5217E0752453313300DB9C7E /* GestureView.swift in Sources */,
 				52BDF1672450F3750086FBFE /* ViewController.swift in Sources */,
 				52BDF1632450F3750086FBFE /* AppDelegate.swift in Sources */,
-				52BDF1652450F3750086FBFE /* SceneDelegate.swift in Sources */,
+				52BDF1982450F3DE0086FBFE /* TempiAudioInput.swift in Sources */,
+				5217E0772453321100DB9C7E /* TempiUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +463,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F9VEKL2B;
 				INFOPLIST_FILE = gesture_sensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +482,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F9VEKL2B;
 				INFOPLIST_FILE = gesture_sensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
